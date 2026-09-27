@@ -9,6 +9,12 @@ nav {
   background-color: #6b584a;
   padding: 20px;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
 }
 
 nav a {
@@ -16,6 +22,7 @@ nav a {
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -28,7 +35,7 @@ nav a:hover {
 }
 
 .logo {
-  width: 250px;
+  width: 150px;
   margin-bottom: 20px;
 }
 
@@ -95,4 +102,124 @@ footer {
 
 .contact-form button:hover {
   background-color: #866c5a;
+}
+
+.hero {
+  background-color: #f5eee6;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #6b584a;
+}
+
+.hero h2 {
+  color: #d4a24c;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.hero button {
+  background-color: #6b584a;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 50px 20px;
+}
+
+.card {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #6b584a;
+}
+
+.card img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+.card {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} 
+
+.hero {
+  min-height: 600px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  color: white;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #f5d57a;
+}
+
+.hero p {
+  max-width: 700px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.hero-button {
+  background-color: #d4a24c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+
+  font-size: 18px;
+  cursor: pointer;
+
+  margin-top: 20px;
+
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  transform: scale(1.05);
+  background-color: #ba8c3e;
 }

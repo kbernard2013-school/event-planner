@@ -1,3 +1,5 @@
+import balloons from "../assets/Balloon_Backgrop.jpg";
+
 function Balloons() {
   return (
     <div>
@@ -10,6 +12,7 @@ function Balloons() {
         <li>Baby Shower Displays</li>
         <li>Wedding Balloon Decor</li>
         <li>Anniversary Balloon Arrangements</li>
+        <img src={balloons} alt="Balloons" />
       </ul>
     </div>
   );
