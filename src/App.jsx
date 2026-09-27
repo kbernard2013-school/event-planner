@@ -7,6 +7,7 @@ import Machines from "./pages/Machines";
 import Balloons from "./pages/Balloons";
 import Equipment from "./pages/Equipment";
 import Coordination from "./pages/Coordination"; 
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/balloons" element={<Balloons />} />
         <Route path="/equipment" element={<Equipment />} />
         <Route path="/coordination" element={<Coordination />} />
+      <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

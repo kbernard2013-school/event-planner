@@ -2,12 +2,12 @@ import logo from "../assets/eboneevents-logo.jpeg";
 
 function Home() {
   return (
-    <div>
+    <div> 
       <img src={logo} alt="Ebonee Events Logo" />
       <h1>Ebonee Events</h1>
       <h2>Making Every Event Unforgettable and Memorable</h2>
-      <h>"Some people look for a beautiful place. Others make a place beautiful."
-         — Hazrat Inayat Khan</h>
+      <h3>"Some people look for a beautiful place. Others make a place beautiful."
+         — Hazrat Inayat Khan</h3>
 
       <p>
         Ebonee Events provides a multitude of services including balloon decor, equipment rentals,
@@ -15,16 +15,16 @@ function Home() {
         focus is to provide a unique and memorable experience for our clients. 
         We are dedicated to enhancing your event with our services.
       </p>
-      <h2>Our Services</h2>
+      <h4>Our Services</h4>
       
       <ul>
-      <li>Balloon Decor</li>
-      <li>Equipment Rentals</li>
-      <li>Party Machines</li>
-      <li>Event Coordination</li>
+      <li>🎈Balloon Decor</li>
+      <li>🎨Equipment Rentals</li>
+      <li>🎉Party Machines</li>
+      <li>📋Event Coordination</li>
       </ul>
 
-      <h3>Company Bio</h3>
+      <h5>Company Bio</h5>
       <p>Ebonee Events is a premier event planning company dedicated 
         to providing exceptional event planning and coordination services.
         It started with a vision to create unforgettable experiences for our clients.
@@ -33,11 +33,11 @@ function Home() {
         With craftmanship and attention to detail, she strives to exceed expectations
          and create lasting memories.</p> 
 
-     <h4>Contact Information</h4>
+     <h6>Contact Information</h6>
 
-      <p>Phone: (561) 555-1234</p>
-      <p>Email: info.eboneeevents@gmail.com</p> 
-      <p>Location: West Palm Beach, FL</p>
+      <p>📞Phone: (561) 555-1234</p>
+      <p>📧Email: info.eboneeevents@gmail.com</p> 
+      <p>📍Location: West Palm Beach, FL</p>
     </div>
   );
 }
