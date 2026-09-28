@@ -1,20 +1,21 @@
 # Eboniee Events
 
 ## Description
-A web application for an event planning company.
+A web application for an event planning business that allows users to view services and submit event inquiries.
 
 ## Features
-- Multi-page navigation
-- Service information
+- Multiple pages
+- Event services information
 - Contact form
 - Supabase database integration
+- Responsive UI
 
-## Technologies Used
+## Technologies
 - React
 - React Router
 - Supabase
 - Netlify
+- GitHub
 
-## Setup
-npm install
-npm run dev
+## Live Website
+live URL: https://ebonee-events.netlify.app/ 
